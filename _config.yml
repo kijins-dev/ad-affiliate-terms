@@ -1,0 +1,36 @@
+theme: minima
+
+title: "Ad Affiliate Data Integration SaaS - Legal Documents"
+description: "Terms of Service and Privacy Policy for Ad Affiliate Data Integration SaaS"
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+
+markdown: kramdown
+highlighter: rouge
+
+repository: kijins-dev/ad-affiliate-terms
+
+author:
+  name: "Ad Affiliate SaaS Team"
+  email: "support@ad-affiliate-saas.com"
+
+social:
+  name: "Ad Affiliate Data Integration SaaS"
+  links:
+    - https://github.com/kijins-dev/ad-affiliate-terms
+
+header_pages:
+  - terms-of-service.md
+  - privacy-policy.md
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
